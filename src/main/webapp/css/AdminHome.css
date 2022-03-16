@@ -1,0 +1,65 @@
+.container /*inbuilt bootstrap css*/
+	{
+	    width: 100%;
+	    padding-right: 15px;
+	    padding-left: 15px;
+	    margin-right: auto;
+	    margin-left: auto;
+	}
+	
+	.fa-square-plus
+	{
+		color:DodgerBlue;
+		margin:10px;
+		padding:10px;
+	}
+	.fa-pen-to-square
+	{
+		color:Violet;
+		margin:10px;
+		padding:10px;
+	}
+	.fa-shop
+	{
+		color:lightgreen;
+		margin:10px;
+		padding:10px;
+	}
+	.fa-arrow-right-from-bracket
+	{
+		color:red;
+		margin:10px;
+		padding:10px;
+	}
+	.admin-welcome
+	{
+		font-size:30px;
+		color:Deeppink;
+		text-align:center;
+		padding:15px;
+		margin:15px;
+		font-family:Algeria;
+	}
+	.card
+	{
+		background-color:red;
+	}
+	.card-body h3
+	{
+		color:yellow;
+		font-family:Algeria;
+		font-size:20px;
+		font-weight:bold;
+	}
+	a
+	{
+		text-decoration:none;
+		
+	}
+	a:hover
+	{
+		text-decoration:none;
+		color:black;
+		background-color:orange;
+		border-radius:2px;
+	}

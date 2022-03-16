@@ -1,0 +1,74 @@
+.navbar-upper-container
+{
+    background-image: url("../images/homepage_background.jpg");
+    height: max-content;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+h1
+{
+	color:green;
+	font-weight:bold;
+	font-family:algeria;
+	font-size:45px;
+}
+.form-control:hover
+{
+ border-outline:green;
+}
+.btn-outline-success
+{
+font-weight:bold;
+}
+.btn-warning1
+{
+	color:black;
+	background-color:yellow;
+	border-outline:yellow;
+	font-weight:bold;
+}
+.btn-warning1:hover
+{
+	color:black;
+	background-color:yellow;
+	border-outline:yellow;
+}
+.navbar-custom
+{
+	background-color:#184d47;
+}
+.navbar-custom .navbar-brand 
+{
+	color:yellow;
+}
+.navbar-custom .navbar-nav li a
+{
+	color:yellow;
+	padding:3px;
+}
+.navbar .nav-item .nav-link:hover
+{
+	background-color:lightgrey;
+	color:black;
+	border-radius:10px;
+}
+.btn-warning
+{
+	font-weight:bold;
+	text-transform:uppercase;
+	font-family:sans-serif;
+}
+.btn-warning:hover {
+    color: white;
+}
+
+i .fa-solid fa-book
+{
+   color:red;
+}
+.main-nav
+{
+	position:fixed;
+}
