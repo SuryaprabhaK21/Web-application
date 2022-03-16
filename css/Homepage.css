@@ -1,0 +1,19 @@
+.container
+{
+max-width:1250px;
+}
+
+.card-body
+{
+	text-align:center;
+}
+.btn-success
+{
+	font-weight:bold;
+	color:white;
+}
+.Explore-all
+{
+	text-align:center;
+	margin:7px;
+}

@@ -1,0 +1,261 @@
+@charset "ISO-8859-1";
+body
+{
+	min-height:100vh;
+	background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url('../images/backgroundjpg.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	/*overflow-x:scroll;*/
+}
+
+h3
+{
+	text-align: center;
+	color: white;
+}
+.alert
+{
+	font-family:algeria;
+	font-size:20px;
+	color:yellow;
+	padding:2px;
+	margin:0;
+}
+.add-new-product-container
+{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top:3px;/*to place form container with a margin to nav bar*/
+	
+}
+#add-new-products-form
+{
+	width: 400px;
+	height: 500px;
+	padding: 20px;
+	background-color: white;
+	/*overflow: hidden;*/
+}
+.title
+{
+	margin-bottom: 20px;
+	
+}
+.title h2
+{
+	font-family: algeria;
+	color: green;
+	text-align: center;
+	padding-bottom: 10px;
+	border-bottom: 1px solid black;
+	font-size:25px;
+	font-weight:bold;
+}
+.input-group
+{
+	margin: 15px 0;
+	/*padding: 12px 40px;*/
+	position: relative;
+}
+.input-group label
+{
+	display: inline-block;
+	margin-bottom: 5px;
+	font-family:algeria;
+}
+.input-group input{
+	display: block;
+	width: 100%;
+	padding: 5px;
+	font-family:algeria;
+}
+.input-group input:focus
+{
+	outline: none;
+	border-color: cyan;
+}
+.submit-button
+{
+	padding: 10px;
+	font-size: 15px;
+	background-color: green;
+	border: none;
+	align-items: center;
+	color: white;
+	text-transform: uppercase;
+	display: flex;
+	justify-content: center;
+	cursor: pointer;
+	margin: auto;
+	width: 100%;
+}
+.submit
+{
+	padding-top: 15px;
+	margin: auto;
+}
+.submit a
+{
+	color: black;
+	text-decoration: none;
+	font-weight: bold;
+}
+.table
+{
+	background: rgba(255,255,255,0);
+	color:white;
+}
+table {
+  
+  border: 1px solid #ccc;
+  border-collapse: collapse;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  /*margin-left: 5%;*/
+  
+  /*justify-content:center;
+  align-items:center;*/
+  
+}
+
+table caption {
+  font-size: 1.5em;
+  margin: .5em 0 .75em;
+}
+
+table tr {
+ /*background-color: #f8f8f8;*/
+  border: 1px solid #ddd;
+  padding: .35em;
+ /* justify-content:center;
+  align-items:center;
+  display:flex;*/
+}
+
+table th,
+table td {
+  padding: .625em;
+  text-align: center;
+  /*vertical-align:middle;*/
+  
+}
+table td
+{
+  font-family:algeria;
+  color:white;
+  font-size:18px; 
+ 
+ 
+}
+
+table th {
+  font-family:algeria;
+  color:yellow;
+  font-size: 17px;
+  letter-spacing: .1em;
+  text-transform: uppercase;
+}
+
+@media screen and (max-width: 600px) {
+  table {
+    border: 0;
+  }
+
+  table caption {
+    font-size: 1.3em;
+  }
+  
+  table thead {
+    border: none;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+  }
+  
+  table tr {
+    border-bottom: 3px solid #ddd;
+    display: block;
+    margin-bottom: .625em;
+  }
+  
+ /* table td {
+    border-bottom: 1px solid #ddd;
+    display: block;
+    font-size: .8em;
+    text-align: right;
+  }*/
+  
+  table td::before {
+    /*
+    * aria-label has no advantage, it won't be read inside a table
+    content: attr(aria-label);
+    */
+    content: attr(data-label);
+    float: left;
+    font-weight: bold;
+   
+    text-transform: uppercase;
+  }
+  
+  table td:last-child {
+    border-bottom: 0;
+  }
+}
+/*td a
+{
+	text-decoration:none;
+	color:black;
+	background-color:orange;
+	cursor: pointer;
+	padding:4px 7px;
+	border-radius:2px;
+	font-size:20px;
+	
+	margin:0;
+	
+}*/
+.btn-warning-edit 
+{
+	text-decoration:none;
+	color:black;
+	background-color:orange;
+	font-family:sans-serif;
+	text-transform:Uppercase;
+	font-weight:bold;
+	
+}
+.btn-danger-delete 
+{
+	text-decoration:none;
+	color:white;
+	background-color:red;
+	font-family:sans-serif;
+	text-transform:Uppercase;
+	font-weight:bold;
+}
+td a:hover
+{
+	text-decoration:none;
+	color:white;
+	background-color:green;
+	font-weight:bold;
+}
+.back
+{
+	color:white;
+	text-decoration:none;
+}
+.back :hover
+{
+	color:yellow;
+}
+select
+{
+	font-family:algeria;
+}

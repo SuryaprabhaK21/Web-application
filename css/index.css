@@ -1,0 +1,70 @@
+* 
+		{
+		    box-sizing: border-box;
+		    font-family: algeria;
+		    /*color: #777;*/
+		}
+	
+		html, body {
+		    margin: 0;
+		    padding: 0;
+		    min-height: 100%;
+		}
+	
+		.Welcomepage-body
+		{
+		    background-image:linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url('../images/backgroundjpg.jpg');
+		    background-repeat: no-repeat;
+		    background-size: cover;
+		    font-family:algeria;
+		}
+		.Welcomepage-link-Container
+		{
+		    display: flex;/*when display: block or inline-block it is at left of page*/
+		    justify-content: center;/*To display in horizontal center*/
+		    height:510px;/*To avoid scrolling when placed center*/
+		    align-items: center;/*To place it in vertical center of webpage*/
+		    /*When 100vh height given use margin: 0;*/
+		    margin: auto;
+		    /*float: center;*/
+		    
+		}
+		.enter-link
+		{
+		    text-decoration: none;
+		    text-align: center;
+		    color:black;
+		    background: linear-gradient(to right,yellow,darkgreen);
+		    border: 1px solid lightgreen;
+		    border-radius: 30px;
+		    padding: 10px;
+		    text-transform: Uppercase;
+		    margin-right: 10px;
+		    font-weight:bold;
+		
+		}
+		.Welcome-page-Heading
+		{
+		    color: white;
+		    background: linear-gradient(to right,yellow,darkgreen);
+		    border-radius: 30px;
+		    text-align: center;
+		    font-size: 60px;
+		    text-transform: Uppercase;
+		    padding:10px;
+		    margin-top:20px;
+		}
+		.Welcome-page-subheading
+		{
+		    color: white;
+		    font-size: 30px;
+		    text-align: center;
+		    padding: 3px;
+		}
+		a:hover
+		{
+			text-decoration:none;
+			color:black;
+			font-weight:bold;
+			
+		}
